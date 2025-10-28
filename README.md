@@ -99,7 +99,7 @@ Skowron was supported by the European Union
 project](https://duch.mimuw.edu.pl/~ps219737/projects/pro-democratic/), 101076570).
 Views and opinions expressed are however those of the authors only and do not
 necessarily reflect those of the European Union or the European Research
-Council. Neither the European Union nor the grant- ing authority can be held
+Council. Neither the European Union nor the granting authority can be held
 responsible for them.
 Grzegorz Lisowski acknowledges support by the European Union under the Horizon
 Europe project [Perycles](https://perycles-project.eu/) (Participatory Democracy
