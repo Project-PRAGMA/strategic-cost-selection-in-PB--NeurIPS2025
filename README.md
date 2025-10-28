@@ -1,8 +1,8 @@
 # Contents
 The project contains the companion code to paper "Strategic Cost Selection in
 Participatory Budgeting" by [Piotr
-Faliszewski](https://home.agh.edu.pl/~faliszew/), Łukasz Janeczko, [Andrzej
-Kaczmarczyk](https://akaczmarczyk.com), [Grzegorz
+Faliszewski](https://home.agh.edu.pl/~faliszew/), [Łukasz Janeczko](https://scholar.google.com/citations?user=ZbT1xiQAAAAJ),
+[Andrzej Kaczmarczyk](https://akaczmarczyk.com), [Grzegorz
 Lisowski](https://scholar.google.com/citations?user=oGo467wAAAAJ&hl=en), [Piotr
 Skowron](https://duch.mimuw.edu.pl/~ps219737/), [Stanisław
 Szufa](https://szufa.simple.ink), and Mateusz Szwagierczak.
