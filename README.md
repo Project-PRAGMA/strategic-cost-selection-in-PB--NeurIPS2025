@@ -11,8 +11,8 @@ Szufa](https://szufa.simple.ink), and Mateusz Szwagierczak.
 
 ## Data
 No data was collected in the course of this project. All used datasets, that we
-provide with this repository for convinience, come
-from a publically accessible library of participatory
+provide with this repository for convenience, come
+from a publicly accessible library of participatory
 budgeting datasets [Pabulib](https://pabulib.org/).
 
 ## Preparation
@@ -75,7 +75,7 @@ python script_04.py
 
 ## Getting charts from Figure 7
 
-o compute the experiments simulating our dynamics (for 10000 iterations) and the delivery costs equal to 80% of the original costs run
+To compute the experiments simulating our dynamics (for 10000 iterations) and the delivery costs equal to 80% of the original costs run
 ```
 python script_05.py
 ```
