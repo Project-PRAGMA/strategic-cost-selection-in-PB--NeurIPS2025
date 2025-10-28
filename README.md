@@ -9,79 +9,81 @@ Szufa](https://szufa.simple.ink), and Mateusz Szwagierczak.
 
 # Replicating Experiments
 
-To replicate our experiments you need to install several packages
->> pip install pabutools==1.1.11
->> pip install tqdm
->> pip install matplotlib
+## Data
+No data was collected in the course of this project. All used datasets, that we
+provide with this repository for convinience, come
+from a publically accessible library of participatory
+budgeting datasets [Pabulib](https://pabulib.org/).
 
-///-----------------------\\\
-|||To get Figures 2 and 6.|||
-\\\-----------------------///
+## Preparation
+Install the following packages
 
-To compute data for Figures 2 and 6 run the following code.
------------------------------------------------------------
+```
+pip install pabutools==1.1.11
+```
+```
+pip install tqdm
+```
+```
+pip install matplotlib
+```
 
-# Compute winning and losing margins
->> python script_01.py
+## Getting Figure 1
 
-To plot Figure 2
-----------------
+To compute the experiments with winning and losing margins run
+```
+python script_01.py
+```
 
-# Plot the results as images/PAPERPLOT_margins.png
->> python script_02.py paperplot
+Then to plot the figure run
+```
+python script_02.py paperplot
+```
 
-To plot the pictures from Figure 6 run the following code.
-----------------------------------------------------------
+## Getting Figure 2
 
-# Plot the results in the folder images/
->> python script_02.py
+To compute the experiments simulating our dynamics (for 10000 iterations) run
+```
+python script_03.py
+```
+
+Then to plot the figure run
+```
+python script_04.py paperplot
+```
+
+## Getting charts from Figure 5
+
+Apply the computation step from Figure 1
 
 
-///-----------------------\\\
-|||To get Figures 3 and 7.|||
-\\\-----------------------///
+Then to plot the charts run
+```
+python script_02.py
+```
 
-To compute data for Figures 3 and 7 run the following code.
------------------------------------------------------------
+## Getting charts from Figure 6
 
-# Simulation 10000 iterations of the game
->> python script_03.py
+Apply the computation step from Figure 2
 
-To plot Figure 3
-----------------
 
-# Plot the results as images/PAPERPLOT_games.png
->> python script_04.py paperplot
+Then to plot the charts run
+```
+python script_04.py
+```
 
-To plot the pictures from Figure 7
-----------------------------------
 
-# Plot the results in images/
->> python script_04.py
+## Getting charts from Figure 7
 
-///----------------\\\
-|||To get Figure 8.|||
-\\\----------------///
+o compute the experiments simulating our dynamics (for 10000 iterations) and the delivery costs equal to 80% of the original costs run
+```
+python script_05.py
+```
 
-To compute data for Figure 8 run the following code.
-----------------------------------------------------
-
-# Simulation 10000 iterations of the game
->> python script_05.py
-
-To plot the pictures from Figure 8
-----------------------------------
-# Plot the results to the directory /images.
->> python script_06.py
-
-The files contain:
- - jupyter notebooks with the code used to generate the figures
- - the python package we implemented, in directory `cvrpy`
- - the datasets we used, in directory `datasets` 
- - raw data of our experiments, in directory `data_out`
-
-> ❗ No data was collected in the course of this project. All used datasets come
-from [Pabulib](https://pabulib.org/). 
+Then to plot the charts run
+```
+python script_06.py
+```
 
 
 # Acknowledgments
