@@ -103,6 +103,6 @@ Council. Neither the European Union nor the grant- ing authority can be held
 responsible for them.
 Grzegorz Lisowski acknowledges support by the European Union under the Horizon
 Europe project [Perycles](https://perycles-project.eu/) (Participatory Democracy
-that Scales).  This research has been supported by the French government under
-the management of Agence Na- tionale de la Recherche as part of the France 2030
-program, reference ANR-23-IACL-0008.
+that Scales). This research has been supported by the French government under
+the management of [Agence Nationale de la Recherche](https://anr.fr/) as part of
+the France 2030 program, reference ANR-23-IACL-0008.
